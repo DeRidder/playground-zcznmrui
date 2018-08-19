@@ -7,10 +7,10 @@ subtypes voor numbers, namelijk:
 2. Bignum: Een groot getal
 3. Float: Een getal met decimalen
 
-```ruby runnable
-puts 100.class         # Fixnum
-puts (100.2).class     # Float
-puts (100**100).class  # Bignum
+```ruby
+100      # Fixnum
+100.2    # Float
+100**100 # Bignum
 ```
 
 Een computer heeft een ingebouwde rekenmachine. Je hebt zogenaamde **operators**

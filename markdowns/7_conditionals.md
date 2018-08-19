@@ -3,7 +3,7 @@
 Een **conditional** betekent dat je een bepaalde actie alleen uitvoert als er aan
 een bepaalde voorwaarde voldaan wordt.
 
-### if
+## If
 
 Een **if**-statement voert alleen een actie uit als de waarde rechts van de `if`,
 ook wel **expression** genoemd, de waarde true terug geeft.
@@ -25,7 +25,10 @@ end
 
 ```
 
-### else
+Zoals je ziet wordt de tekst "De voorwaarde is niet voldaan", omdat de waarde van
+de expression in dit geval false is.
+
+## Else
 
 Een **else**-statement kan gecombineerd worden met een if-statement en wordt getriggered
 wanneer de expression van de if-statement false is.
@@ -41,7 +44,7 @@ end
 
 ```
 
-### elsif
+## Elsif
 
 Met een **elsif**-statement kan je nog een stap verder gaan. Als de expression van de
 eerste if-statement false is wordt een elsif-statement getriggered. Is de expression
@@ -49,7 +52,7 @@ van de elsif-statement vervolgens ook false, dan wordt uiteindelijk de else geac
 
 ```ruby runnable
 iphone_x_stock = 0
-samsung_s9_stock = 0
+samsung_s9_stock = 5
 
 if iphone_x_stock > 0
   puts "De Apple iPhone X is op voorraad"
@@ -63,7 +66,7 @@ end
 
 ### unless
 
-Tot slot is er een **unless*-statement dat het omgekeerde doet van een if-statement.
+Tot slot is er een **unless**-statement dat het omgekeerde doet van een if-statement.
 Alleen als de waarde van de expression false is wordt de code uitgevoerd.
 
 ```ruby runnable
@@ -82,8 +85,9 @@ unless iphone_x_stock > 0
 end
 ```
 
-Een unless-statement wil je eigenlijk nooit combineren met een if, elsif of else
-statement, omdat het al snel zeer verwarrend kan worden.
+In dit geval wordt de tekst "De voorwaarde is niet voldaan" niet in de output getoond,
+omdat de waarde van de expression true is. Een unless-statement wil je overigens nooit
+combineren met een if, elsif of else statement, omdat het al snel verwarrend kan worden.
 
 Ik besef dat dit allemaal een hoop informatie is, laten we in de volgende stap
 proberen om conditionals in de praktijk toe te passen.

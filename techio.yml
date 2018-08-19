@@ -1,4 +1,4 @@
-title: Ruby Project
+title: Ruby Introduction (Dutch)
 plan:
   - title: Welkom
     statement: markdowns/1_welcome.md
@@ -12,8 +12,10 @@ plan:
     statement: markdowns/5_numbers.md
   - title: Booleans
     statement: markdowns/6_booleans.md
-  - title: Numbers
+  - title: Conditionals
     statement: markdowns/7_conditionals.md
+  - title: "Conditionals: Oefeningen"
+    statement: markdowns/8_conditional_exercises.md  
 projects:
   ruby:
     root: /ruby-project

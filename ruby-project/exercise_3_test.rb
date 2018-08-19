@@ -12,7 +12,7 @@ def existsInFile(str)
   return File.foreach("exercise_3.rb").any?{ |l| l[str] }
 end
 
-if existsInFile('if') && existsInFile('elsif') 
+if existsInFile('if ') && existsInFile('elsif ') 
   if exercise_3 == "De Samsung Galaxy S9 is op voorraad"
     success(true)
   else

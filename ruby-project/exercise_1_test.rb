@@ -14,7 +14,6 @@ end
 
 if existsInFile('if')
   if exercise_1 == 'Apple iPhone X'
-    msg(File.foreach("exercise_1.rb").map { |l| puts l })
     success(true)
   else
     success(false)

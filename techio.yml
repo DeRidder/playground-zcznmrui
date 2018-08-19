@@ -1,9 +1,9 @@
 title: Ruby Project
 plan:
-  - title: Welkom
-    statement: markdowns/welcome.md
-plan:
-  title: Programmeertalen
+- title: Welkom
+  statement: markdowns/welcome.md
+
+- title: Programmeertalen
   statement: markdowns/programming_languages.md
   plan:
     - title: Data types

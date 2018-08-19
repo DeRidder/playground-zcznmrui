@@ -4,8 +4,9 @@ plan:
   statement: markdowns/1_welcome.md
 
 - title: Programmeertalen
-  statement: markdowns/2_programming_languages.md
   plan:
+    - title: Voorbeelden
+      statement: markdowns/2_programming_languages.md
     - title: Data types
       statement: markdowns/3_building_blocks.md
     - title: Strings en Symbols

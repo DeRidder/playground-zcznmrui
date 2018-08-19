@@ -1,11 +1,11 @@
 title: Ruby Project
 plan:
-- title: Welkom
-  statement: markdowns/1_welcome.md
-- title: Programmeertalen
-  plan:
-  - title: Voorbeelden
+  - title: Welkom
+    statement: markdowns/1_welcome.md
+  - title: Programmeertalen
     statement: markdowns/2_programming_languages.md
+  - title: Bouwstenen
+    statement: markdowns/3_building_blocks.md
 projects:
   ruby:
     root: /ruby-project

@@ -1,18 +1,11 @@
 title: Ruby Project
+
 plan:
 - title: Welkom
-  statement: markdowns/1_welcome.md
-
 - title: Programmeertalen
   plan:
-    - title: Voorbeelden
-      statement: markdowns/2_programming_languages.md
-    - title: Data types
-      statement: markdowns/3_building_blocks.md
-    - title: Strings en Symbols
-      statement: markdowns/2_strings_and_symbols.md
-    - title: Numbers
-      statement: markdowns/3_numbers.md
+  - title: Voorbeelden
+    statement: markdowns/2_programming_languages.md
 projects:
   ruby:
     root: /ruby-project

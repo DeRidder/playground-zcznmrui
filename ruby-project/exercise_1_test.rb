@@ -17,6 +17,7 @@ if existsInFile('if')
     success(true)
   else
     success(false)
+    msg(exercise_1)
     msg("De if-statement geeft niet de waarde \"Apple iPhone X\" terug")
   end
 else

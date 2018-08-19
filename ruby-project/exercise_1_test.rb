@@ -5,7 +5,7 @@ def success(success)
 end
 
 def msg(msg)
-  puts "TECHIO> message \"#{msg}\""
+  puts "TECHIO> message #{msg}"
 end
 
 def existsInFile(str)
@@ -17,10 +17,8 @@ if existsInFile('if')
     success(true)
   else
     success(false)
-    msg(exercise_1 == 'Apple iPhone X')
-    msg(exercise_1 === 'Apple iPhone X')
-    msg(exercise_1)
-    msg("De if-statement geeft niet de waarde \"Apple iPhone X\" terug")
+    msg(File.foreach("exercise_1.rb").map { |l| puts l })
+    msg('De if-statement geeft niet de waarde "Apple iPhone X" terug')
   end
 else
   success(false)

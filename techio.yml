@@ -6,6 +6,8 @@ plan:
     statement: markdowns/2_programming_languages.md
   - title: Bouwstenen
     statement: markdowns/3_building_blocks.md
+  - title: Strings
+    statement: markdowns/4_strings.md
 projects:
   ruby:
     root: /ruby-project

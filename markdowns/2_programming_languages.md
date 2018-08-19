@@ -28,7 +28,4 @@ Date.new('2018-09-04')
 Zoals je ziet zijn er veel wegen die naar Rome leiden. Hoewel de verschillen tussen
 deze talen groot lijken, zijn er meer overeenkomsten dan verschillen. In deze tutorial
 is voor Ruby gekozen, maar belangrijker zijn de bouwstenen waar deze en vele andere
-programmeertalen uit bestaan. 
-
-
-
+programmeertalen uit bestaan.

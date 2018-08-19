@@ -1,4 +1,4 @@
-# Les 1: Data types
+# Les 1: Bouwstenen
 
 Een computer is zowel heel slim, als heel dom tegelijkertijd. Hij kan je wildste dromen
 uit laten komen, maar alleen als je hem precies vertelt wat hij moet doen. Om goed te

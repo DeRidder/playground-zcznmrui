@@ -1,13 +1,13 @@
 title: Ruby Project
 plan:
 - title: Welkom
-  statement: markdowns/welcome.md
+  statement: markdowns/1_welcome.md
 
 - title: Programmeertalen
-  statement: markdowns/programming_languages.md
+  statement: markdowns/2_programming_languages.md
   plan:
     - title: Data types
-      statement: markdowns/1_data_types.md
+      statement: markdowns/3_building_blocks.md
     - title: Strings en Symbols
       statement: markdowns/2_strings_and_symbols.md
     - title: Numbers

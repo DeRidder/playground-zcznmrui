@@ -8,6 +8,8 @@ plan:
     statement: markdowns/3_building_blocks.md
   - title: Strings
     statement: markdowns/4_strings.md
+  - title: Numbers
+    statement: markdowns/5_numbers.md
 projects:
   ruby:
     root: /ruby-project

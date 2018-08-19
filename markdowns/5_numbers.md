@@ -1,14 +1,44 @@
 # Les 3: Numbers
 
-Ik denk dat de naam wel redelijk voor zich spreekt. Een getal wordt in Ruby ook wel
-een Integer genoemd. Het doet mij terugdenken aan de middelbare school, toen ik niet
-langer met het hoofd alles uit moest rekenen, maar voor het eerst een rekenmachine
-mocht gebruiken.
+Numbers zijn, zoals de naam al doet vermoeden, getallen. In Ruby zijn er een aantal
+subtypes voor numbers, namelijk:
 
-Een computer heeft een ingebouwde rekenmachine. Probeer maar uit.
+1. Fixnum: Een rond getal
+2. Bignum: Een groot getal
+3. Float: Een getal met decimalen
+
+```ruby
+puts 100.class         # Fixnum
+puts (100.2).class     # Float
+puts (100**100).class  # Bignum
+```
+
+Een computer heeft een ingebouwde rekenmachine. Je hebt zogenaamde **operators**
+waar je mee kan werken, waarbij de volgende 4 operators het meest voorkomen:
+
+1. Toevoegen (+) 
+2. Aftrekken (-) 
+3. Vermenigvuldigen (*)
+4. Delen (/)
 
 ```ruby runnable
-1 + 3
-2 * 5
-6 / 2
+puts 1 + 3 # Fixnum
+puts 1.2 + 3.7 #Float
+puts 6 - 2
+puts 2 * 5
+puts 6 / 2
+puts 100 * 100 * 100 #Bignum
+
+puts (1 + 3) / 2
+
+# Probeer zelf wat berekeningen uit
+puts
 ```
+
+Als je op "Run" klikt dan zie je dat de computer alle berekeningen heeft uitgevoerd,
+je hoeft dus niet meer met het hoofd te rekenen. Probeer zelf ook wat berekeningen
+met Numbers uit te voeren
+
+Hopelijk heb je nu een idee wat je zoal met Numbers kan doen. In de volgende stap
+gaan we aan de slag met Booleans.
+

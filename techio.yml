@@ -1,7 +1,17 @@
 title: Ruby Project
 plan:
-- title: Welcome
-  statement: markdowns/welcome.md
+  - title: Welkom
+    statement: markdowns/welcome.md
+plan:
+  title: Programmeertalen
+  statement: markdowns/programming_languages.md
+  plan:
+    - title: Data types
+      statement: markdowns/1_data_types.md
+    - title: Strings en Symbols
+      statement: markdowns/2_strings_and_symbols.md
+    - title: Numbers
+      statement: markdowns/3_numbers.md
 projects:
   ruby:
     root: /ruby-project

@@ -1,0 +1,1 @@
+puts "TECHIO> terminal -i ruby talk.rb"

@@ -22,12 +22,12 @@ waar je mee kan werken, waarbij de volgende 4 operators het meest voorkomen:
 4. Delen (/)
 
 ```ruby runnable
-puts 1 + 3 # Fixnum
-puts 1.2 + 3.7 #Float
+puts 1 + 3
+puts 1.2 + 3.7
 puts 6 - 2
 puts 2 * 5
 puts 6 / 2
-puts 100 * 100 * 100 #Bignum
+puts 100 * 100 * 100
 
 puts (1 + 3) / 2
 
@@ -45,4 +45,3 @@ met Numbers uit te voeren
 
 Hopelijk heb je nu een idee wat je zoal met Numbers kan doen. In de volgende stap
 gaan we aan de slag met Booleans.
-

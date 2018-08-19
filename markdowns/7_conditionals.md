@@ -3,7 +3,7 @@
 Een **conditional** betekent dat je een bepaalde actie alleen uitvoert als er aan
 een bepaalde voorwaarde voldaan wordt.
 
-## If
+## If-statement
 
 Een **if**-statement voert alleen een actie uit als de waarde rechts van de `if`,
 ook wel **expression** genoemd, de waarde true terug geeft.
@@ -16,7 +16,15 @@ end
 if false
   puts "De voorwaarde is niet voldaan"
 end
+```
 
+Zoals je ziet wordt de tekst "De voorwaarde is niet voldaan" niet getoond in de output,
+omdat de waarde van de expression in dit geval false is.
+
+Stel je hebt 10 Apple iPhone X's op voorraad en je wil een bericht tonen als een
+of meerdere toestellen op voorraad zijn. Dan kan je dat als volgt doen:
+
+```ruby runnable
 iphone_x_stock = 10
 
 if iphone_x_stock > 0
@@ -25,13 +33,11 @@ end
 
 ```
 
-Zoals je ziet wordt de tekst "De voorwaarde is niet voldaan", omdat de waarde van
-de expression in dit geval false is.
-
-## Else
+## Else-statement
 
 Een **else**-statement kan gecombineerd worden met een if-statement en wordt getriggered
-wanneer de expression van de if-statement false is.
+wanneer de expression van de if-statement false is. Een else-statement heeft geen
+expression, omdat je simpelweg zegt: "In elk ander geval voer je dit uit".
 
 ```ruby runnable
 iphone_x_stock = 0
@@ -44,7 +50,7 @@ end
 
 ```
 
-## Elsif
+## Elsif-statement
 
 Met een **elsif**-statement kan je nog een stap verder gaan. Als de expression van de
 eerste if-statement false is wordt een elsif-statement getriggered. Is de expression
@@ -64,7 +70,7 @@ end
 
 ```
 
-### unless
+### Unless-statement
 
 Tot slot is er een **unless**-statement dat het omgekeerde doet van een if-statement.
 Alleen als de waarde van de expression false is wordt de code uitgevoerd.

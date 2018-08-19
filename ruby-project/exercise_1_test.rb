@@ -13,11 +13,11 @@ def existsInFile(str)
 end
 
 if existsInFile('if ')
-  if exercise_1 == 'Apple iPhone X'
+  if exercise_1 == 'De Apple iPhone X is op voorraad'
     success(true)
   else
     success(false)
-    msg('De if-statement geeft niet de waarde "Apple iPhone X" terug')
+    msg('De if-statement geeft niet de waarde "De Apple iPhone X is op voorraad" terug')
   end
 else
   success(false)

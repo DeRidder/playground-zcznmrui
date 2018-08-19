@@ -1,13 +1,7 @@
 # Booleans
 
+Booleans zijn het antwoord op een vraag die je met ja of nee kan beantwoorden.
 Een boolean kan twee waardes hebben, namelijk `true` of `false`.
-
-```ruby
-true
-false
-```
-
-Booleans zijn vaak het antwoord op een vraag die je met ja of nee kan beantwoorden:
 
 ```ruby runnable
 # Is 4 groter dan 3?

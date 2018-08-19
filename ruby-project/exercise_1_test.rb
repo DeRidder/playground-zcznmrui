@@ -14,10 +14,10 @@ end
 
 if existsInFile('if')
   if exercise_1 == 'Apple iPhone X'
+    msg(File.foreach("exercise_1.rb").map { |l| puts l })
     success(true)
   else
     success(false)
-    msg(File.foreach("exercise_1.rb").map { |l| puts l })
     msg('De if-statement geeft niet de waarde "Apple iPhone X" terug')
   end
 else

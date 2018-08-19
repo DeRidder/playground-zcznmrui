@@ -10,6 +10,10 @@ plan:
     statement: markdowns/4_strings.md
   - title: Numbers
     statement: markdowns/5_numbers.md
+  - title: Booleans
+    statement: markdowns/6_booleans.md
+  - title: Numbers
+    statement: markdowns/7_conditionals.md
 projects:
   ruby:
     root: /ruby-project

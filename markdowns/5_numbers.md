@@ -1,4 +1,4 @@
-# Les 3: Numbers
+# Numbers
 
 Numbers zijn, zoals de naam al doet vermoeden, getallen. In Ruby zijn er een aantal
 subtypes voor numbers, namelijk:
@@ -7,7 +7,7 @@ subtypes voor numbers, namelijk:
 2. Bignum: Een groot getal
 3. Float: Een getal met decimalen
 
-```ruby
+```ruby runnable
 puts 100.class         # Fixnum
 puts (100.2).class     # Float
 puts (100**100).class  # Bignum
@@ -30,6 +30,10 @@ puts 6 / 2
 puts 100 * 100 * 100 #Bignum
 
 puts (1 + 3) / 2
+
+puts "==================="
+puts "Eigen berekeningen:"
+puts "==================="
 
 # Probeer zelf wat berekeningen uit
 puts

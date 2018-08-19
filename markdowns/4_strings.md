@@ -1,4 +1,4 @@
-# Les 2: Strings
+# Strings
 
 Een **String** heeft in het Nederlands een hele andere betekenis dan in een programmeertaal.
 Het staat simpelweg voor een stuk tekst.

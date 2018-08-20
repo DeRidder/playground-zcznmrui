@@ -8,9 +8,14 @@ subtypes voor numbers, namelijk:
 3. Float: Een getal met decimalen
 
 ```ruby
-100      # Fixnum
-100.2    # Float
-100**100 # Bignum
+# Fixnum
+100
+
+# Float
+100.2
+
+# Bignum
+100 * 100
 ```
 
 Een computer heeft een ingebouwde rekenmachine. Je hebt zogenaamde **operators**

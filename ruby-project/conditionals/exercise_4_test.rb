@@ -12,14 +12,14 @@ def existsInFile(str)
   return File.foreach("exercise_4.rb").any?{ |l| l[str] }
 end
 
-if existsInFile('unless ') 
-  if exercise_4 == "Helaas, de Apple iPhone X is tijdelijk uitverkocht"
+if existsInFile('!') && existsInFile('&&') && existsInFile('||')
+  if exercise_4
     success(true)
   else
     success(false)
-    msg('De unless-statement geeft niet de waarde "Helaas, de Apple iPhone X is tijdelijk uitverkocht" terug')
+    msg("De output moet true zijn")
   end
 else
   success(false)
-  msg("Gebruik een unless-statement")
+  msg("Gebruik zowel ||, && en !")
 end

@@ -1,21 +1,25 @@
 title: Ruby Introduction (Dutch)
 plan:
   - title: Welkom
-    statement: markdowns/1_welcome.md
+    statement: markdowns/01_welcome.md
   - title: Programmeertalen
-    statement: markdowns/2_programming_languages.md
+    statement: markdowns/02_programming_languages.md
   - title: Bouwstenen
-    statement: markdowns/3_building_blocks.md
+    statement: markdowns/03_building_blocks.md
   - title: Strings
-    statement: markdowns/4_strings.md
+    statement: markdowns/04_strings.md
   - title: Numbers
-    statement: markdowns/5_numbers.md
+    statement: markdowns/05_numbers.md
   - title: Booleans
-    statement: markdowns/6_booleans.md
+    statement: markdowns/06_booleans.md
   - title: Conditionals
-    statement: markdowns/7_conditionals.md
+    statement: markdowns/07_conditionals.md
   - title: "Conditionals: Oefeningen"
-    statement: markdowns/8_conditional_exercises.md  
+    statement: markdowns/08_conditional_exercises.md  
+  - title: "Boolean operators"
+    statement: markdowns/09_boolean_operators.md
+  - title: "Boolean operators: Oefeningen"
+    statement: markdowns/10_boolean_operator_exercises.md   
 projects:
   ruby:
     root: /ruby-project

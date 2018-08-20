@@ -1,4 +1,4 @@
-def exercise_1
+def exercise_3
   iphone_x_stock = 10
 
   # 1. Gebruik alleen een if-statement

@@ -7,6 +7,6 @@ def exercise_2
 
   # 1. Gebruik alleen een and-operator
   # 2. Gebruik twee expressions
-  # 3. Het resultaat in de ouput moet false zijn
+  # 3. Het resultaat in de output moet false zijn
 
 end

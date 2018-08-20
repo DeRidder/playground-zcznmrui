@@ -7,6 +7,6 @@ def exercise_3
 
   # 1. Gebruik alleen een not-operator
   # 2. Gebruik een enkele expression
-  # 3. Het resultaat in de ouput moet false zijn
+  # 3. Het resultaat in de output moet false zijn
 
 end

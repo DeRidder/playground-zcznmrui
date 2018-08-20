@@ -1,7 +1,7 @@
 # Conditionals: Oefeningen
 
-Laten we `||` (minimaal 1 waar), `&&` (allemaal waar) en `!` (tegenovergestelde)
-in de praktijk uitproberen.
+Laten we de or-operator (||, minimaal 1 waar), and-operator (&&, allemaal waar) en de
+not-operator(!, tegenovergestelde) in de praktijk uitproberen.
 
 @[Oefening 1: ||]({"stubs": ["boolean_operators/exercise_1.rb"], "command": "ruby boolean_operators/exercise_1_test.rb"})
 @[Oefening 2: &&]({"stubs": ["boolean_operators/exercise_2.rb"], "command": "ruby boolean_operators/exercise_2_test.rb"})

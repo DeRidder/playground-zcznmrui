@@ -7,6 +7,6 @@ def exercise_1
 
   # 1. Gebruik alleen een or-operator
   # 2. Gebruik twee expressions
-  # 3. Het resultaat in de ouput moet true zijn
+  # 3. Het resultaat in de output moet true zijn
 
 end

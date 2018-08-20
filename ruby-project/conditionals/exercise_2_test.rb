@@ -9,17 +9,17 @@ def msg(msg)
 end
 
 def existsInFile(str)
-  return File.foreach("conditionals/exercise_2.rb").any?{ |l| l[str] }
+  return File.foreach("conditionals/exercise_1.rb").any?{ |l| l[str] }
 end
 
-if existsInFile('&&')
-  if exercise_2 == false
+if existsInFile('if ')
+  if exercise_1 == 'De Apple iPhone X is op voorraad'
     success(true)
   else
     success(false)
-    msg("De output moet false zijn")
+    msg('De if-statement geeft niet de waarde "De Apple iPhone X is op voorraad" terug')
   end
 else
   success(false)
-  msg("Gebruik de and-operator(&&)")
+  msg("Gebruik een if-statement")
 end

@@ -1,8 +1,12 @@
 def exercise_2
-  iphone_x_stock = 10
+  # Example expressions:
+  # 1 == 1
+  # 2 > 1
+  # "Samsung" == "Apple"
+  # 4 + 3 == 7
 
-  # 1. Gebruik alleen een if-statement
-  # 2. Toon de String "De Apple iPhone X is op voorraad" als de deze op voorraad is
-  # P.S. Je hoeft geen puts meer te gebruiken
-  
+  # 1. Gebruik alleen een and-operator
+  # 2. Gebruik twee expressions
+  # 3. Het resultaat in de ouput moet false zijn
+
 end

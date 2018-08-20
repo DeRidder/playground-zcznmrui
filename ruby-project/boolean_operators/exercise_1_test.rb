@@ -12,14 +12,14 @@ def existsInFile(str)
   return File.foreach("boolean_operators/exercise_1.rb").any?{ |l| l[str] }
 end
 
-if existsInFile('if ')
-  if exercise_1 == 'De Apple iPhone X is op voorraad'
+if existsInFile('||')
+  if exercise_1
     success(true)
   else
     success(false)
-    msg('De if-statement geeft niet de waarde "De Apple iPhone X is op voorraad" terug')
+    msg("De output moet true zijn")
   end
 else
   success(false)
-  msg("Gebruik een if-statement")
+  msg("Gebruik de or-operator(||)")
 end

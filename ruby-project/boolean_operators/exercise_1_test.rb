@@ -9,7 +9,7 @@ def msg(msg)
 end
 
 def existsInFile(str)
-  return File.foreach("exercise_1.rb").any?{ |l| l[str] }
+  return File.foreach("boolean_operators/exercise_1.rb").any?{ |l| l[str] }
 end
 
 if existsInFile('if ')

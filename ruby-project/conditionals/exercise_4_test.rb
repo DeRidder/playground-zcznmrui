@@ -9,7 +9,7 @@ def msg(msg)
 end
 
 def existsInFile(str)
-  return File.foreach("exercise_4.rb").any?{ |l| l[str] }
+  return File.foreach("conditionals/exercise_4.rb").any?{ |l| l[str] }
 end
 
 if existsInFile('!') && existsInFile('&&') && existsInFile('||')

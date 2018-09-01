@@ -30,7 +30,6 @@ iphone_x_stock = 10
 if iphone_x_stock > 0
   puts "De Apple iPhone X is op voorraad"
 end
-
 ```
 
 ## Else-statement

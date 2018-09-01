@@ -2,7 +2,7 @@
 
 Laten we even stilstaan bij wat we tot nu toe geleerd hebben.
 
-Om te beginnen weten we dat de meest basale bouwstenen (*data types*)van elke
+Om te beginnen weten we dat de meest basale bouwstenen (**data types**) van elke
 programmeertaal bestaan uit:
 
 1. Een String (een tekst, bijv. "De Apple iPhone X is op voorraad!")
@@ -29,7 +29,7 @@ In de volgende stappen gaan we de verschillende bouwstenen samenbrengen en struc
 Daarbij komen de volgende onderwerpen aan bod:
 
 1. Variabels
-2. Nieuwe data types: Array en Hash
-3. Iterators
-4. Methods
-5. Classes
+2. Methods
+3. Classes
+4. Nieuwe data types: Array en Hash
+5. Iterators

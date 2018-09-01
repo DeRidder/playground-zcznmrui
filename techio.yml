@@ -30,6 +30,8 @@ plan:
     statement: markdowns/14_internal_methods_and_objects.md
   - title: "Custom methods"
     statement: markdowns/15_custom_methods.md
+  - title: "Classes"
+    statement: markdowns/16_classes.md
 projects:
   ruby:
     root: /ruby-project

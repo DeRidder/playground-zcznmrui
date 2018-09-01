@@ -15,11 +15,21 @@ plan:
   - title: Conditionals
     statement: markdowns/07_conditionals.md
   - title: "Conditionals: Oefeningen"
-    statement: markdowns/08_conditional_exercises.md  
+    statement: markdowns/08_conditional_exercises.md
   - title: "Boolean operators"
     statement: markdowns/09_boolean_operators.md
   - title: "Boolean operators: Oefeningen"
-    statement: markdowns/10_boolean_operator_exercises.md   
+    statement: markdowns/10_boolean_operator_exercises.md
+  - title: "Samenvatting: Terugblik"
+    statement: markdowns/11_summary.md
+  - title: "Quiz"
+    statement: markdowns/12_quiz.md
+  - title: "Variables"
+    statement: markdowns/13_variables.md
+  - title: "Methods & Objects"
+    statement: markdowns/14_internal_methods_and_objects.md
+  - title: "Custom methods"
+    statement: markdowns/15_custom_methods.md
 projects:
   ruby:
     root: /ruby-project

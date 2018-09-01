@@ -25,13 +25,13 @@ we de bovenstaande code doornemen:
 2. `.length` is een method die het aantal tekens in de String `"Apple iPhone X"` telt
 3. `puts` toont het resultaat in de output
 
-Probeer het zelf maar met met de methodes `upcase` en `reverse`:
+Probeer het zelf maar met met de methods `upcase` en `reverse`:
 
 ```ruby runnable
-# Voer de methode .upcase uit op je naam
+# Voer de method .upcase uit op je naam
 puts ""
 
-# Voer de methode .reverse uit op je naam
+# Voer de method .reverse uit op je naam
 puts ""
 ```
 

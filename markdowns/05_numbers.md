@@ -11,11 +11,11 @@ subtypes voor numbers, namelijk:
 # Fixnum
 100
 
-# Float
-100.2
-
 # Bignum
 100 * 100
+
+# Float
+100.2
 ```
 
 Een computer heeft een ingebouwde rekenmachine. Je hebt zogenaamde **operators**

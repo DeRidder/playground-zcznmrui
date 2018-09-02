@@ -32,7 +32,7 @@ iphone_x_stock = iphone_x_stock - iphone_x_sold
 puts "Er zijn nog #{iphone_x_stock} iPhone X's op voorraad"
 
 galaxy_s9_stock = 10
-galaxy_s9_stock =  galaxy_s9_stock - galaxy_s9_sold
+galaxy_s9_stock = galaxy_s9_stock - galaxy_s9_sold
 
 puts "Er zijn nog #{galaxy_s9_stock} Galaxy S9's op voorraad"
 ```

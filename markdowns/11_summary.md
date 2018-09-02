@@ -31,5 +31,6 @@ Daarbij komen de volgende onderwerpen aan bod:
 1. Variabels
 2. Methods
 3. Classes
-4. Nieuwe data types: Array en Hash
+4. Array
 5. Iterators
+6. Hash

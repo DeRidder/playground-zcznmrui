@@ -32,6 +32,16 @@ plan:
     statement: markdowns/15_custom_methods.md
   - title: "Classes"
     statement: markdowns/16_classes.md
+  - title: "Array"
+    statement: markdowns/17_array.md
+  - title: "Array: Deel 2"
+    statement: markdowns/17_array_part2.md
+  - title: "Iterators"
+    statement: markdowns/18_hash.md
+  - title: "Hash"
+    statement: markdowns/19_iterators.md
+  - title: "Terugblik & Vooruitblik"
+    statement: markdowns/20_past_and_present.md
 projects:
   ruby:
     root: /ruby-project

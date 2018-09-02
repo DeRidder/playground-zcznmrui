@@ -21,12 +21,6 @@ volgende vragen.
 -[ ] Expression
 -[x] Boolean
 
-?["Apple iPhone X" is een..]
--[ ] Boolean
--[ ] Conditional
--[x] String
--[ ] Number
-
 ?[`length`, `downcase` en `reverse` zijn voorbeelden van..]
 -[ ] Expressions
 -[ ] Conditionals

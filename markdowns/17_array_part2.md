@@ -1,4 +1,4 @@
-# Array - Deel 2
+# Array: Deel 2
 
 Een Array kan op 2 manieren worden aangemaakt.
 
@@ -21,11 +21,11 @@ verschillende manieren, zoals:
 array = ["iPhone X", "Galaxy S9"]
 array << "Wiko Harry"
 
-puts array
+puts array.inspect
 
 array.push("Xperia Z")
 
-puts array
+puts array.inspect
 ```
 
 Probeer het zelf maar uit in de volgende oefening.
@@ -39,11 +39,11 @@ in het onderstaande voorbeeld om te zien wat er gebeurd.
 ```ruby runnable
 array = ["Wiko Harry", "Apple iPhone X", "Samsung Galaxy S9", "Wiko Harry"]
 
-puts array.sort
+puts array.sort.inspect
 
-puts array.uniq
+puts array.uniq.inspect
 
-puts array.drop(1)
+puts array.drop(1).inspect
 ```
 
 Er zijn nog veel meer mogelijkheden met betrekking tot Arrays, maar hopelijk is

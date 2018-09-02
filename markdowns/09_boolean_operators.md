@@ -32,7 +32,7 @@ not-operator het tegenovergestelde toont van hetgeen rechts van het uitroepteken
 Tot slot is het ook mogelijk om meerdere boolean operators te combineren.
 
 ```ruby runnable
-puts (("Apple" == "Apple") && ("Apple" == "Samsung")) || "Samsung" == "Samsung")
+puts (("Apple" == "Apple") && ("Apple" == "Samsung")) || "Samsung" == "Samsung"
 ```
 
 In bovenstaande voorbeeld wordt eerst `("Apple" == "Apple") && ("Apple" == "Samsung")`

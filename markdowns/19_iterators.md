@@ -64,7 +64,7 @@ uit een key en een value bestaat, geef je 2 waardes mee:
 phones_in_stock = {
   "iPhone X"  => 10,
   "Galaxy S9" => 5,
-  "Xperia Z"  => nil
+  "Xperia Z"  => 2
 }
   
 phones_in_stock.each do |key, value|
@@ -74,7 +74,7 @@ end
 
 Het is ook mogelijk om zowel een Array en een Hash te combineren.
 
-```
+```ruby runnable
 phones = [
   {
     "brand" => "Apple",

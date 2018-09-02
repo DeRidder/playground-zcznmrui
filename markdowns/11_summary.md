@@ -32,5 +32,5 @@ Daarbij komen de volgende onderwerpen aan bod:
 2. Methods
 3. Classes
 4. Array
-5. Iterators
-6. Hash
+5. Hash
+6. Iterators

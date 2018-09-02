@@ -41,11 +41,11 @@ phones_in_stock = {
 
 phones_in_stock.store("Wiko Harry", 4)
 
-puts phones_in_stock
+puts phones_in_stock.inspect
 
-phones_in_stock.values
+phones_in_stock.values.inspect
 
-phones_in_stock.compact
+phones_in_stock.compact.inspect
 ```
 
 In de volgende stap gaan we arrays en hashes in actie zien wanneer we voor het

@@ -36,12 +36,12 @@ plan:
     statement: markdowns/17_array.md
   - title: "Array: Deel 2"
     statement: markdowns/17_array_part2.md
-  - title: "Iterators"
-    statement: markdowns/18_hash.md
   - title: "Hash"
+    statement: markdowns/18_hash.md
+  - title: "Iterators"
     statement: markdowns/19_iterators.md
-  - title: "Terugblik & Vooruitblik"
-    statement: markdowns/20_past_and_present.md
+  - title: "The End"
+    statement: markdowns/20_the_end.md
 projects:
   ruby:
     root: /ruby-project

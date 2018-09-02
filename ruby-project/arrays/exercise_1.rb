@@ -5,6 +5,7 @@ def exercise_1
   # 2. Toon deze waardes in de volgende zin: "De Huawei P10 en Wiko Harry zijn
   #    geweldige telefoons"
   # 3. Je kan string interpolation gebruiken: "De #{<telefoon} en #{<telefoon> .."
+  # P.S. Je hoeft geen puts meer te gebruiken
 
-  puts
+  
 end

@@ -12,14 +12,14 @@ def existsInFile(str)
   return File.foreach("conditionals/exercise_3.rb").any?{ |l| l[str] }
 end
 
-if existsInFile('if ')
-  if exercise_1 == 'De Apple iPhone X is op voorraad'
+if existsInFile('if ') && existsInFile('elsif ') 
+  if exercise_3 == "De Samsung Galaxy S9 is op voorraad"
     success(true)
   else
     success(false)
-    msg('De if-statement geeft niet de waarde "De Apple iPhone X is op voorraad" terug')
+    msg('De elsif-statement geeft niet de waarde "De Samsung Galaxy S9 is op voorraad" terug')
   end
 else
   success(false)
-  msg("Gebruik een if-statement")
+  msg("Gebruik zowel een if- als een elsif-statement")
 end

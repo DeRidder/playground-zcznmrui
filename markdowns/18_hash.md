@@ -15,7 +15,7 @@ hash = Hash.new
 
 Een hash bestaat uit een combinatie van **keys** en **values**.
 
-``ruby runnable
+```ruby runnable
 phones_in_stock = {
   "iPhone X" => 10,
   "Galaxy S9" => 5   
@@ -32,7 +32,7 @@ Het zal je inmiddels niet meer verbazen, maar op een Hash kunnen verschillende
 methodes worden aangeroepen, zoals `store`, `values` en `compact`. Klik op "Run"
 om te zien wat deze methodes uitvoeren.
 
-``ruby runnable
+```ruby runnable
 phones_in_stock = {
   "iPhone X"  => 10,
   "Galaxy S9" => 5,

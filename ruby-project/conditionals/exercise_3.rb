@@ -1,8 +1,9 @@
 def exercise_3
-  iphone_x_stock = 10
+  iphone_x_stock = 0
+  galaxy_s9_stock = 10
 
-  # 1. Gebruik alleen een if-statement
+  # 1. Gebruik zowel een if- als een elsif-statement
   # 2. Toon de String "De Apple iPhone X is op voorraad" als de deze op voorraad is
-  # P.S. Je hoeft geen puts meer te gebruiken
-  
+  # 3. Toon de String "De Samsung Galaxy S9 is op voorraad" als de deze op voorraad is
+
 end

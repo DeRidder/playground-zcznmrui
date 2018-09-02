@@ -8,7 +8,7 @@ def msg(msg)
   puts "TECHIO> message #{msg}"
 end
 
-if exercise_1 == "De Huawei P10 en Wiko Harry zijn geweldige telefoons"
+if exercise_1 === "De Huawei P10 en Wiko Harry zijn geweldige telefoons"
   success(true)
 else
   success(false)
